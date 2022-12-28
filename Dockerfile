@@ -1,3 +1,3 @@
-FROM node
-RUN apt-get update
-RUN apt-get upgrade -y
+FROM 13-alpine3.10
+RUN apk update
+RUN apk upgrade -y
