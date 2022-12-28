@@ -1,3 +1,3 @@
 FROM node
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get upgrade -y
